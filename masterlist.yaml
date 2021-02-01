@@ -126,4 +126,8 @@ globals:
 
 groups: []
 
-plugins: []
+plugins:
+  - name: 'Update.esm'
+    url: [ 'https://store.steampowered.com/app/933480/Enderal_Forgotten_Stories/' ]
+  - name: 'Enderal - Forgotten Stories.esm'
+    url: [ 'https://store.steampowered.com/app/933480/Enderal_Forgotten_Stories/' ]
