@@ -129,5 +129,14 @@ groups: []
 plugins:
   - name: 'Update.esm'
     url: [ 'https://store.steampowered.com/app/933480/Enderal_Forgotten_Stories/' ]
+    clean:
+      - crc: 0xF5E824B0
+        util: 'EnderalEdit v4.0.3'
   - name: 'Enderal - Forgotten Stories.esm'
     url: [ 'https://store.steampowered.com/app/933480/Enderal_Forgotten_Stories/' ]
+    dirty:
+      - <<: *quickClean
+        crc: 0xB3DFC9F7
+        util: '[EnderalEdit v4.0.3](https://www.nexusmods.com/enderal/mods/23)'
+        itm: 5
+        udr: 55
