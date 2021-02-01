@@ -161,3 +161,8 @@ plugins:
     url: [ 'https://www.nexusmods.com/enderal/mods/97/' ]
     group: *dynamicPatchGroup
 
+  - name: 'DynDOLOD.esp'
+    url:
+      - link: 'https://www.nexusmods.com/skyrim/mods/59721/'
+        name: 'Dynamic Distant Objects LOD - DynDOLOD'
+
