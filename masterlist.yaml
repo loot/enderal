@@ -127,6 +127,7 @@ globals:
 groups: []
 
 plugins:
+###### Official Game Files ######
   - name: 'Update.esm'
     url: [ 'https://store.steampowered.com/app/933480/Enderal_Forgotten_Stories/' ]
     clean:
