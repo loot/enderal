@@ -142,6 +142,9 @@ plugins:
   - name: 'Enderal - Forgotten Stories.esm'
     url: [ 'https://store.steampowered.com/app/933480/Enderal_Forgotten_Stories/' ]
     group: *dlcGroup
+    tag:
+      - Delev
+      - Relev
     dirty:
       - <<: *quickClean
         crc: 0xB3DFC9F7
