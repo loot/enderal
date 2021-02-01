@@ -124,17 +124,24 @@ globals:
         text: '[最新的LOOT版本](%1%)。'
     subs: [ 'https://loot.github.io/latest-thread/' ]
 
-groups: []
+groups:
+  - name: &dlcGroup DLC
+    description: 'A group for official downloadable content.'
+
+  - name: default
+    after: [ *dlcGroup ]
 
 plugins:
 ###### Official Game Files ######
   - name: 'Update.esm'
     url: [ 'https://store.steampowered.com/app/933480/Enderal_Forgotten_Stories/' ]
+    group: *dlcGroup
     clean:
       - crc: 0xF5E824B0
         util: 'EnderalEdit v4.0.3'
   - name: 'Enderal - Forgotten Stories.esm'
     url: [ 'https://store.steampowered.com/app/933480/Enderal_Forgotten_Stories/' ]
+    group: *dlcGroup
     dirty:
       - <<: *quickClean
         crc: 0xB3DFC9F7
