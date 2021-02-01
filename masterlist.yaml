@@ -153,4 +153,6 @@ plugins:
         udr: 55
 
 ###### Modding Tools - Generated Files ######
+  - name: 'Bashed Patch.*\.esp'
+    url: [ 'https://www.nexusmods.com/enderal/mods/97/' ]
 
