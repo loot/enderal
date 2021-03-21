@@ -19,9 +19,9 @@ common:
       - lang: ko
         text: 'xEdit을 사용한 플러그인 정리에 대한 가이드는 [여기](https://tes5edit.github.io/docs/7-mod-cleaning-and-error-checking.html#ThreeEasyStepstocleanMods)에서 찾을 수 있습니다.'
       - lang: pt
-        text: 'Um guia para limpar plugins utilizando xEdit pode ser encontrado [aqui](https://tes5edit.github.io/docs/7-mod-cleaning-and-error-checking.html#ThreeEasyStepstocleanMods)'
+        text: 'Um guia para limpar plugins utilizando xEdit pode ser encontrado [aqui](https://tes5edit.github.io/docs/7-mod-cleaning-and-error-checking.html#ThreeEasyStepstocleanMods).'
       - lang: pt_BR
-        text: 'Um guia para limpar plugins utilizando o xEdit pode ser encontrado [aqui](https://tes5edit.github.io/docs/7-mod-cleaning-and-error-checking.html#ThreeEasyStepstocleanMods)'
+        text: 'Um guia para limpar plugins utilizando o xEdit pode ser encontrado [aqui](https://tes5edit.github.io/docs/7-mod-cleaning-and-error-checking.html#ThreeEasyStepstocleanMods).'
       - lang: ru
         text: 'Гид по очистке с помощью xEdit можно найти [здесь](https://tes5edit.github.io/docs/7-mod-cleaning-and-error-checking.html#ThreeEasyStepstocleanMods).'
       - lang: sv
@@ -32,7 +32,7 @@ common:
     util: '[EnderalEdit](https://www.nexusmods.com/enderal/mods/23/)'
     info:
       - lang: en
-        text: 'It is strongly recommended not to use mods that contain **Deleted navmeshes** as they''re known to cause crashes. **Deleted navmeshes** must be corrected manually(A complex process that should be done by the mod author). More information on **Deleted navmeshes** is provided [here](https://www.creationkit.com/index.php?title=Fixing_Navmesh_Deletion_Tutorial).'
+        text: 'It is strongly recommended not to use mods that contain **deleted navmeshes** as they''re known to cause crashes. **Deleted navmeshes** must be corrected manually (a complex process that should be done by the mod author). More information on **deleted navmeshes** is provided [here](https://www.creationkit.com/index.php?title=Fixing_Navmesh_Deletion_Tutorial).'
       - lang: bg
         text: 'Препоръчва се да избягвате модове, които съдържат **изтрити navmesh-ове**, защото те могат да причинят проблеми. **Изтритите navmesh-ове** трябва да бъдат коригирани ръчно (това е сложен процес и не се препоръчва за начинаещи). Повече информация за **изтритите navmesh-ове** може да намерите [тук](https://www.creationkit.com/index.php?title=Fixing_Navmesh_Deletion_Tutorial).'
       - lang: de
@@ -132,7 +132,7 @@ globals:
       - lang: es
         text: '[Forum de LOOT](%1%).'
       - lang: ja
-        text: '[LOOTの最新スレッドを開く](%1%)（英語）'
+        text: '[LOOTの最新スレッドを開く](%1%)（英語）。'
       - lang: ko
         text: '[최신 LOOT 스레드](%1%).'
       - lang: pl
