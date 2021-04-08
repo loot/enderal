@@ -212,3 +212,10 @@ plugins:
         name: 'Dynamic Distant Objects LOD - DynDOLOD'
     group: *dynamicLODGroup
 
+  - name: 'Occlusion.esp'
+    url:
+      - link: 'https://stepmodifications.org/forum/topic/13451-xlodgen-terrain-lod-beta-76-for-fnv-fo3-fo4-fo4vr-tes5-sse-tes5vr-enderal-enderalse/'
+        name: 'xLODGen Occlusion'
+    group: *dynamicLODGroup
+    after: [ 'DynDOLOD.esp' ]
+    msg: [ *updateOcclusion ]
