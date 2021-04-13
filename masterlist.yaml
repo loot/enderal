@@ -12,6 +12,8 @@ common:
         text: 'Ако добавите, премахнете или обновите приставки, които променят записите WRLD и CELL, трябва да обновите този модул с **xLODGen**.'
       - lang: de
         text: 'Wenn Sie Plugins hinzufügen, entfernen oder aktualisieren die WRLD/CELL Einträge verändern, denken Sie daran dieses Modul mit **xLODGen** zu aktualisieren.'
+      - lang: pt_PT
+        text: 'Se você adicionar, remover, ou atualizar plugins que alterem registos WRLD/CELL, lembre-se de atualizar este módulo com **xLODGen**.'
 
 # Cleaning Data Anchors
   - &quickClean
@@ -31,10 +33,10 @@ common:
         text: 'xEditを使ったプラグインのクリーニングのガイドは[こちら](https://tes5edit.github.io/docs/7-mod-cleaning-and-error-checking.html#ThreeEasyStepstocleanMods)にあります。'
       - lang: ko
         text: 'xEdit을 사용한 플러그인 정리에 대한 가이드는 [여기](https://tes5edit.github.io/docs/7-mod-cleaning-and-error-checking.html#ThreeEasyStepstocleanMods)에서 찾을 수 있습니다.'
-      - lang: pt_PT
-        text: 'Um guia para limpar plugins utilizando xEdit pode ser encontrado [aqui](https://tes5edit.github.io/docs/7-mod-cleaning-and-error-checking.html#ThreeEasyStepstocleanMods).'
       - lang: pt_BR
         text: 'Um guia para limpar plugins utilizando o xEdit pode ser encontrado [aqui](https://tes5edit.github.io/docs/7-mod-cleaning-and-error-checking.html#ThreeEasyStepstocleanMods).'
+      - lang: pt_PT
+        text: 'Um guia para limpar plugins utilizando xEdit pode ser encontrado [aqui](https://tes5edit.github.io/docs/7-mod-cleaning-and-error-checking.html#ThreeEasyStepstocleanMods).'
       - lang: ru
         text: 'Гид по очистке с помощью xEdit можно найти [здесь](https://tes5edit.github.io/docs/7-mod-cleaning-and-error-checking.html#ThreeEasyStepstocleanMods).'
       - lang: sv
@@ -59,10 +61,10 @@ common:
         text: '**삭제된 Navmesh**가 포함된 모드는 크래시를 유발하는 것으로 알려져 있으므로 사용하지 않는 것이 좋습니다. **삭제된 Navmesh**는 수동으로 수정해야합니다(모드 작성자가 수행해야하는 복잡한 프로세스). **삭제된 Navmesh**에 대한 자세한 정보는 [여기](https://www.creationkit.com/index.php?title=Fixing_Navmesh_Deletion_Tutorial)에서 제공됩니다.'
       - lang: pl
         text: 'Jest silnie zalecane aby nie używać modów zawierających **Usunięte navmeshe** jako że są znane jako powód awarii. **Usunięte navmeshe** muszą zostać poprawione ręcznie(skomplikowany proces który powinien być wykonany przez autora modu). Więcej informacji o **Usuniętych navmeshach** można znaleźć [tutaj](https://www.creationkit.com/index.php?title=Fixing_Navmesh_Deletion_Tutorial).'
-      - lang: pt_PT
-        text: 'É fortemente recomandado não utilizar mods que contenham **Navmeshes apagados** sendo que são conhecidos por causar falhas. **Navmeshes apagados** devem ser corrigidos manualmente(Um processo complexo que deve ser feito pelo autor do mod). Mais informação sobre **Navmeshes apagados** está disponível em inglês [aqui] (https://www.creationkit.com/index.php?title=Fixing_Navmesh_Deletion_Tutorial).'
       - lang: pt_BR
         text: 'É altamente recomendado que você não utilize mods que contenham **Navmeshes deletados**, pois eles são conhecidos por causar problemas. **Navmeshes deletados devem ser corrigos manualmente (Um processo complexo que deve ser feito pelo autor do mod). Mais informações em **Navmeshes deletadas** está disponível [aqui](https://www.creationkit.com/index.php?title=Fixing_Navmesh_Deletion_Tutorial).'
+      - lang: pt_PT
+        text: 'É fortemente recomandado não utilizar mods que contenham **Navmeshes apagados** sendo que são conhecidos por causar falhas. **Navmeshes apagados** devem ser corrigidos manualmente(Um processo complexo que deve ser feito pelo autor do mod). Mais informação sobre **Navmeshes apagados** está disponível em inglês [aqui] (https://www.creationkit.com/index.php?title=Fixing_Navmesh_Deletion_Tutorial).'
       - lang: ru
         text: 'Настоятельно не рекомендуется использовать моды с **удаленными навмешами** т.к. известно, что они вызывают вылеты. **удаленные навмеши** должны быть исправлены вручную(Комплексный процесс, который должен быть выполнен автором мода). Больше информации о **удаленных навмешах** можно найти [здесь](https://www.creationkit.com/index.php?title=Fixing_Navmesh_Deletion_Tutorial).'
       - lang: sv
@@ -155,10 +157,10 @@ globals:
         text: '[최신 LOOT 스레드](%1%).'
       - lang: pl
         text: '[Ostatni wątek LOOT](%1%).'
-      - lang: pt_PT
-        text: '[Postagem mais recente do LOOT](%1%).'
       - lang: pt_BR
         text: '[Thread mais recento do LOOT](%1%).'
+      - lang: pt_PT
+        text: '[Postagem mais recente do LOOT](%1%).'
       - lang: ru
         text: '[Обсуждение LOOT "(Eng)"](%1%).'
       - lang: sv
