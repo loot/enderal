@@ -12,6 +12,8 @@ common:
         text: 'Ако добавите, премахнете или обновите приставки, които променят записите WRLD и CELL, трябва да обновите този модул с **xLODGen**.'
       - lang: de
         text: 'Wenn Sie Plugins hinzufügen, entfernen oder aktualisieren die WRLD/CELL Einträge verändern, denken Sie daran dieses Modul mit **xLODGen** zu aktualisieren.'
+      - lang: pt_PT
+        text: 'Se você adicionar, remover, ou atualizar plugins que alterem registos WRLD/CELL, lembre-se de atualizar este módulo com **xLODGen**.'
 
 # Cleaning Data Anchors
   - &quickClean
