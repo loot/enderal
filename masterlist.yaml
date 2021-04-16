@@ -14,6 +14,8 @@ common:
         text: 'Wenn Sie Plugins hinzufügen, entfernen oder aktualisieren die WRLD/CELL Einträge verändern, denken Sie daran dieses Modul mit **xLODGen** zu aktualisieren.'
       - lang: pt_PT
         text: 'Se você adicionar, remover, ou atualizar plugins que alterem registos WRLD/CELL, lembre-se de atualizar este módulo com **xLODGen**.'
+      - lang: zh_CN
+        text: '如果您添加、删除或更新修改了WRLD/CELL记录的插件时，记得使用**xLODGen**更新此模块。'
 
 # Cleaning Data Anchors
   - &quickClean
@@ -69,6 +71,8 @@ common:
         text: 'Настоятельно не рекомендуется использовать моды с **удаленными навмешами** т.к. известно, что они вызывают вылеты. **удаленные навмеши** должны быть исправлены вручную(Комплексный процесс, который должен быть выполнен автором мода). Больше информации о **удаленных навмешах** можно найти [здесь](https://www.creationkit.com/index.php?title=Fixing_Navmesh_Deletion_Tutorial).'
       - lang: sv
         text: 'Det är starkt rekommenderat att inte använda mods som innehåller **Borttagna navmeshes** eftersom de kan orsaka krascher. **Borttagna navmeshes** måste korrigeras manuellt (en komplex process som borde göras av modskaparen). Mer information om **Borttagna navmeshes** hittar du [här](https://www.creationkit.com/index.php?title=Fixing_Navmesh_Deletion_Tutorial).'
+      - lang: zh_CN
+        text: '强烈建议不要使用包含已删除navmeshes的mod，因为它们会导致崩溃。**已删除navmeshes**必须手动修正(一个复杂的过程，应该由mod作者完成)。更多关于**已删除navmeshes**的信息已提供[这里](https://www.creationkit.com/index.php?title=Fixing_Navmesh_Deletion_Tutorial)。'
 
 bash_tags:
   - 'Actors.ACBS'
