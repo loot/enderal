@@ -1,4 +1,4 @@
-### About
+# About
 
 This repository holds the LOOT masterlist for Enderal: Forgotten Stories.
 
