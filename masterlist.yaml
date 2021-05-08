@@ -246,10 +246,12 @@ plugins:
   - name: 'Enderal - Bug Fixes.esp'
     url: [ 'https://www.nexusmods.com/enderal/mods/176/' ]
     group: *fixesGroup
+    tag: [ Delev ]
 
   - name: 'Enderal SE - Bug Fixes.esp'
     url: [ 'https://www.nexusmods.com/enderalspecialedition/mods/2/' ]
     group: *fixesGroup
+    tag: [ Delev ]
 
 ###### Modding Tools - Generated Files ######
   - name: 'Bashed Patch.*\.esp'
