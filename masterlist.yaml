@@ -195,13 +195,29 @@ groups:
 plugins:
 ###### Official Game Files ######
   - name: 'Update.esm'
-    url: [ 'https://store.steampowered.com/app/933480/Enderal_Forgotten_Stories/' ]
+    url:
+      - 'https://store.steampowered.com/app/933480/Enderal_Forgotten_Stories/'
+      - 'https://store.steampowered.com/app/976620/Enderal_Forgotten_Stories_Special_Edition/'
     group: *dlcGroup
     clean:
       - crc: 0xF5E824B0
         util: 'EnderalEdit v4.0.3'
+      - crc: 0x462828DF
+        util: 'EnderalSEEdit v4.0.3g'
+  - name: 'Dawnguard.esm'
+    url: [ 'https://store.steampowered.com/app/976620/Enderal_Forgotten_Stories_Special_Edition/' ]
+    group: *dlcGroup
+  - name: 'HearthFires.esm'
+    url: [ 'https://store.steampowered.com/app/976620/Enderal_Forgotten_Stories_Special_Edition/' ]
+    group: *dlcGroup
+  - name: 'Dragonborn.esm'
+    url: [ 'https://store.steampowered.com/app/976620/Enderal_Forgotten_Stories_Special_Edition/' ]
+    group: *dlcGroup
+
   - name: 'Enderal - Forgotten Stories.esm'
-    url: [ 'https://store.steampowered.com/app/933480/Enderal_Forgotten_Stories/' ]
+    url:
+      - 'https://store.steampowered.com/app/933480/Enderal_Forgotten_Stories/'
+      - 'https://store.steampowered.com/app/976620/Enderal_Forgotten_Stories_Special_Edition/'
     group: *dlcGroup
     tag:
       - Delev
@@ -212,6 +228,15 @@ plugins:
         util: '[EnderalEdit v4.0.3](https://www.nexusmods.com/enderal/mods/23)'
         itm: 5
         udr: 55
+      - <<: *quickClean
+        crc: 0xC7BC7AEA
+        util: '[EnderalSEEdit v4.0.3g](https://www.nexusmods.com/enderalspecialedition/mods/78)'
+        itm: 112
+        udr: 61
+
+  - name: 'SkyUI_SE.esp'
+    url: [ 'https://store.steampowered.com/app/976620/Enderal_Forgotten_Stories_Special_Edition/' ]
+    group: *dlcGroup
 
 ###### Modding Tools - Generated Files ######
   - name: 'Bashed Patch.*\.esp'
