@@ -242,6 +242,17 @@ plugins:
     url: [ 'https://store.steampowered.com/app/976620/Enderal_Forgotten_Stories_Special_Edition/' ]
     group: *dlcGroup
 
+###### Fixes ######
+  - name: 'Enderal - Bug Fixes.esp'
+    url: [ 'https://www.nexusmods.com/enderal/mods/176/' ]
+    group: *fixesGroup
+    tag: [ Delev ]
+
+  - name: 'Enderal SE - Bug Fixes.esp'
+    url: [ 'https://www.nexusmods.com/enderalspecialedition/mods/2/' ]
+    group: *fixesGroup
+    tag: [ Delev ]
+
 ###### Modding Tools - Generated Files ######
   - name: 'Bashed Patch.*\.esp'
     url: [ 'https://www.nexusmods.com/enderal/mods/97/' ]
