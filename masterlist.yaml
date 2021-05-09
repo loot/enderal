@@ -351,3 +351,7 @@ plugins:
         util: 'EnderalEdit v4.0.3'
       - crc: 0x80C83D55
         util: 'EnderalSEEdit v4.0.3g'
+
+###### Items ######
+  - name: 'Enderal SE - Crossbows.esp'
+    url: [ 'https://www.nexusmods.com/enderalspecialedition/mods/4/' ]
