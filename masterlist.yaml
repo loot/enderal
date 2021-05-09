@@ -358,3 +358,7 @@ plugins:
     tag:
       - Invent.Add
       - Invent.Remove
+    msg:
+      - <<: *alreadyInX
+        subs: [ 'Enderal SE - Gameplay Overhaul.esp' ]
+        condition: 'active("Enderal SE - Gameplay Overhaul.esp")'
