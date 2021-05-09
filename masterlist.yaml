@@ -275,3 +275,9 @@ plugins:
     group: *dynamicLODGroup
     after: [ 'DynDOLOD.esp' ]
     msg: [ *runxLODGen ]
+
+###### Gameplay ######
+  - name: 'Enderal - Dynamic Fast Travel.esp'
+    url:
+      - 'https://www.nexusmods.com/enderal/mods/120/'
+      - 'https://www.nexusmods.com/enderalspecialedition/mods/16/'
