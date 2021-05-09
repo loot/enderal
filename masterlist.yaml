@@ -355,3 +355,6 @@ plugins:
 ###### Items ######
   - name: 'Enderal SE - Crossbows.esp'
     url: [ 'https://www.nexusmods.com/enderalspecialedition/mods/4/' ]
+    tag:
+      - Invent.Add
+      - Invent.Remove
