@@ -351,3 +351,17 @@ plugins:
         util: 'EnderalEdit v4.0.3'
       - crc: 0x80C83D55
         util: 'EnderalSEEdit v4.0.3g'
+
+###### Items ######
+  - name: 'Enderal SE - Crossbows.esp'
+    url: [ 'https://www.nexusmods.com/enderalspecialedition/mods/4/' ]
+    tag:
+      - Invent.Add
+      - Invent.Remove
+    msg:
+      - <<: *alreadyInX
+        subs: [ 'Enderal SE - Gameplay Overhaul.esp' ]
+        condition: 'active("Enderal SE - Gameplay Overhaul.esp")'
+    clean:
+      - crc: 0x73625F44
+        util: 'EnderalSEEdit v4.0.3g'
