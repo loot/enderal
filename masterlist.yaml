@@ -362,3 +362,6 @@ plugins:
       - <<: *alreadyInX
         subs: [ 'Enderal SE - Gameplay Overhaul.esp' ]
         condition: 'active("Enderal SE - Gameplay Overhaul.esp")'
+    clean:
+      - crc: 0x73625F44
+        util: 'EnderalSEEdit v4.0.3g'
