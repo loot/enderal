@@ -18,6 +18,8 @@ common:
         text: 'Eliminar. Está incluido en %1%.'
       - lang: fi
         text: 'Poista. %1% sisältää jo tämän.'
+      - lang: fr
+        text: 'Supprimer. Déjà inclus dans %1%.'
       - lang: it
         text: 'Cancella. Già incluso in %1%.'
       - lang: ja
@@ -50,6 +52,8 @@ common:
         text: 'Löschen. Bereits enthalten oder anderweitig korrigiert in %1%.'
       - lang: es
         text: 'Eliminar. Está incluido o arreglado en %1%.'
+      - lang: fr
+        text: 'Supprimer. Déjà inclus ou corrigé en %1%.'
       - lang: it
         text: 'Cancella. Già incluso o corretto in %1%.'
       - lang: ja
@@ -82,6 +86,8 @@ common:
         text: 'Wenn Sie Plugins hinzufügen, entfernen oder aktualisieren die WRLD/CELL Einträge verändern, denken Sie daran dieses Modul mit **xLODGen** zu aktualisieren.'
       - lang: es
         text: 'Si se agrega, elimina, o se actualizan plugins que modifican registros WRLD/CELL, recuerde actualizar este módulo con **xLODGen**.'
+      - lang: fr
+        text: 'Si vous ajoutez, enlevez, ou mettez à jour des plugins qui modifient WRLD/CELL records, n''oubliez pas de mettre à jour ce module avec **xLODGen**.'
       - lang: it
         text: 'Se aggiungi, rimuovi o aggiorni i plugin che modificano i record WRLD/CELL, ricorda di aggiornare questo modulo con **xLODGen**.'
       - lang: ja
@@ -111,6 +117,8 @@ common:
         text: 'Una guía para limpiar plugins usando xEdit se encuentra disponible [aquí](https://tes5edit.github.io/docs/7-mod-cleaning-and-error-checking.html#ThreeEasyStepstocleanMods).'
       - lang: fi
         text: 'Ohjeet liitännäisten puhdistamiseen xEditillä löytyvät [tästä linkistä](https://tes5edit.github.io/docs/7-mod-cleaning-and-error-checking.html#ThreeEasyStepstocleanMods).'
+      - lang: fr
+        text: 'Un guide pour nettoyer les plugins grâce à xEdit se trouve [ici](https://tes5edit.github.io/docs/7-mod-cleaning-and-error-checking.html#ThreeEasyStepstocleanMods).'
       - lang: it
         text: 'Puoi trovare una guida per la pulizia dei plugin tramite xEdit [qui](https://tes5edit.github.io/docs/7-mod-cleaning-and-error-checking.html#ThreeEasyStepstocleanMods).'
       - lang: ja
@@ -141,6 +149,8 @@ common:
         text: 'Es wird streng empfohlen, keine Mods zu verwenden die **Gelöschte Navmeshes** beinhalten, da diese dafür bekannt sind Abstürze auszulösen. **Gelöschte Navmeshes** müssen manuell korrigiert werden (ein komplexer Prozess der vom Mod-Autor erledigt werden sollte). Mehr Informationen über **Gelöschte Navmeshes** werden [hier](https://www.creationkit.com/index.php?title=Fixing_Navmesh_Deletion_Tutorial) geboten.'
       - lang: es
         text: 'Es altamente recomendable que no se usen mods que contienen **navmeshes eliminadas** pues es común que causen cierres súbitos (crashes). Las **navmeshes eliminadas** deben ser corregidas manualmente (un proceso bien complejo que debe ser ejecutado por el autor del mod). Más información sobre las **navmeshes eliminadas** puede ser consltada [aquí](https://www.creationkit.com/index.php?title=Fixing_Navmesh_Deletion_Tutorial).'
+      - lang: fr
+        text: 'Il est fortement recommandé de ne pas utilisé de mod contenant **deleted navmeshes**, connu pour provoquer des crash. **Deleted navmeshes** doit être corrigé manuellement (un processus complexe, devant être effectué par l''auteur du mod). Plus d''information sur **Deleted navmeshes** peuvent être trouvées [ici](https://www.creationkit.com/index.php?title=Fixing_Navmesh_Deletion_Tutorial).'
       - lang: it
         text: 'Si raccomanda vivamente di non utilizzare mod che contengono **navmesh cancellate** che sono note come causa di Crash. **Navmesh cancellate** devono essere corrette manualmente (un processo complesso che dovrebbe essere fatto dall''autore della mod). Puoi trovare maggiori informazioni su **deleted navmeshes** [qui](https://www.creationkit.com/index.php?title=Fixing_Navmesh_Deletion_Tutorial).'
       - lang: ja
@@ -248,6 +258,8 @@ globals:
         text: '[Aktueller LOOT-Thread](%1%).'
       - lang: es
         text: '[Forum de LOOT](%1%).'
+      - lang: fr
+        text: '[Récent post sur le forum LOOT](%1%).'
       - lang: it
         text: '[Ultimo thread di LOOT](%1%).'
       - lang: ja
