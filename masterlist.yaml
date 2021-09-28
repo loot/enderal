@@ -286,7 +286,11 @@ bash_tags:
   - 'Stats'
   - 'Text'
 
-globals: []
+globals:
+# Latest LOOT Thread
+  - &lootThread
+    <<: *latestLOOTThread
+    subs: [ 'https://loot.github.io/latest-thread/' ]
 
 groups:
   - name: &dlcGroup DLC
