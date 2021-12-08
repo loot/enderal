@@ -6,209 +6,205 @@ prelude:
   # Message Anchors
     - &alreadyInX
       type: error
-      content:
-        - lang: en
-          text: 'Delete. Already included in %1%.'
-        - lang: bg
-          text: 'За изтриване. Включена е в %1%.'
-        - lang: da
-          text: 'Slet. Allerede inkluderet i %1%.'
-        - lang: de
-          text: 'Löschen. Bereits in %1% enthalten.'
-        - lang: es
-          text: 'Eliminar. Está incluido en %1%.'
-        - lang: fi
-          text: 'Poista. %1% sisältää jo tämän.'
-        - lang: fr
-          text: 'Supprimer. Déjà inclus dans %1%.'
-        - lang: it
-          text: 'Cancella. Già incluso in %1%.'
-        - lang: ja
-          text: '削除してください。既に%1%に含まれています。'
-        - lang: ko
-          text: '삭제하십시오. 이미 %1%에 포함되어 있습니다.'
-        - lang: pl
-          text: 'Usuń. Już zawarte w %1%'
-        - lang: pt_BR
-          text: 'Apague. Já incluído em %1%'
-        - lang: pt_PT
-          text: 'Apagar. Já incluído em %1%.'
-        - lang: ru
-          text: 'Удалите. Уже включено в %1%.'
-        - lang: sv
-          text: 'Ta bort. Redan inkluderat i %1%.'
-        - lang: uk_UA
-          text: 'Видаліть. Уже додано у %1%.'
-        - lang: zh_CN
-          text: '删除。已包含在%1%中。'
+      content: 'Delete. Already included in %1%.'
 
     - &alreadyInOrFixedByX
       type: error
-      content:
-        - lang: en
-          text: 'Delete. Already included or otherwise fixed in %1%.'
-        - lang: bg
-          text: 'За изтриване. Приложена е в %1%.'
-        - lang: de
-          text: 'Löschen. Bereits enthalten oder anderweitig korrigiert in %1%.'
-        - lang: es
-          text: 'Eliminar. Está incluido o arreglado en %1%.'
-        - lang: fr
-          text: 'Supprimer. Déjà inclus ou corrigé en %1%.'
-        - lang: it
-          text: 'Cancella. Già incluso o corretto in %1%.'
-        - lang: ja
-          text: '削除してください。%1%にすでに含まれているか修正されています。'
-        - lang: ko
-          text: '삭제하십시오. 이미 %1%에 포함되었거나 수정되었습니다.'
-        - lang: pl
-          text: 'Usuń. Już zawarte lub naprawione w %1%.'
-        - lang: pt_BR
-          text: 'Apague. Já incluído ou consertado em %1%.'
-        - lang: pt_PT
-          text: 'Apagar. Já incluído ou reparado em %1%.'
-        - lang: ru
-          text: 'Удалите. Уже включено в %1% или исправлено иным образом.'
-        - lang: sv
-          text: 'Ta bort. Redan inkluderat eller fixat i %1%.'
-        - lang: uk_UA
-          text: 'Видаліть. Уже включено або іншим чином виправлено у %1%.'
-        - lang: zh_CN
-          text: '删除。在%1%中已包含或修复。'
+      content: 'Delete. Already included or otherwise fixed in %1%.'
+
+    - &alsoUseX
+      type: say
+      content: 'It''s highly recommended that you also use %1%.'
+
+    - &compatIssuesWithX
+      type: say
+      content: 'This plugin has compatibility issues with %1%. For more information, read this mod''s compatibility notes.'
+
+    - &compatNotes
+      type: say
+      content: 'It is recommended that you read this mod''s [Compatibility Notes](%1%).'
+
+    - &corrupt
+      type: warn
+      content: 'This file is corrupt and should not be used.'
+
+    - &deleteOrDeactivateX
+      type: error
+      content: 'Delete or deactivate. %1%'
+      subs: [ '' ]
+
+    - &deletePlugin
+      type: warn
+      content: 'When using **%1%**, it''s recommended that you deactivate or delete this ESP file but keep the resources (e.g. meshes, textures) installed with this mod.'
+
+    - &includesX
+      type: say
+      content: '%1% is included with this mod.'
+
+    - &languageX
+      type: say
+      content: 'Language: %1%'
+
+    - &mainQuestCompleted
+      type: say
+      content: 'Only use this plugin once the main quest of the game has been completed.'
+
+    - &masterReassign
+      type: say
+      content: 'The **%1%** master must be reassigned to **%2%**.'
+
+    - &missingRequirementXforY
+      type: warn
+      content: 'It appears you have installed **%2%**, but some of its requirements seem to be missing. Please ensure you have correctly installed **%1%**.'
+
+    - &missingRequirementXforPlugin
+      type: warn
+      content: 'Some of this plugins requirements seem to be missing. Please ensure you have correctly installed **%1%**.'
+
+    - &moddingPlugin
+      type: error
+      content: 'This plugin is a modding resource and should not be used in-game.'
+
+    - &moveXFromYToZ
+      type: say
+      content: 'Move %1% from %2% to %3%.'
+
+    - &obsolete
+      type: warn
+      content: 'Obsolete. Update to the latest version. %1%'
+      subs: [ '' ]
+
+    - &onlyUseSmashOrBash
+      type: say
+      content: 'Can be used with a %1% but would require additional work. A Smashed Patch or Bash Patch should be used independently of one another.'
+
+    - &optional
+      type: say
+      content: 'This plugin is optional.'
+
+    - &patch3rdParty
+      type: say
+      content: 'You seem to be using **%1%**, but you have not enabled a compatibility patch for this mod. A third party patch is available here: %2%'
+
+    - &patcherScriptAvailable
+      type: say
+      content: '%1% patcher script available here: %2%'
+
+    - &patchIncluded
+      type: say
+      content: 'You seem to be using **%1%**, but you have not enabled a compatibility patch for this mod. A compatibility patch is included with this plugin''s installer.'
+
+    - &patchOutdated
+      type: warn
+      content: 'This patch is outdated and may not be compatible with the latest version of the patched mod.'
+
+    - &patchProvided
+      type: say
+      content: 'You seem to be using **%1%**, but you have not enabled a compatibility patch for this mod. A compatibility patch is provided on this plugin''s mod page.'
+
+    - &patchUnavailable
+      type: warn
+      content: 'A patch is required to make this mod fully compatible with %1%. None is currently available for download.'
+
+    - &patchUpdateAvailable
+      type: say
+      content: 'Update Patch available: %1%'
+
+    - &renameFile
+      type: say
+      content: 'Rename this file to %1%.'
+
+    - &renameXtoY
+      type: warn
+      content: 'You need to rename %1% to %2% or this mod won''t work.'
+
+    # Useful for when a plugin needs SkyUI, but shouldn't load after it (eg. when it's a master plugin).
+    - &requiresMCM_X
+      type: warn
+      content: 'A **Mod Configuration Menu** is required for this mod to be fully functional. An **MCM** can be added by installing %1%.'
+
+    - &requiresResources
+      type: warn
+      content: 'Requires resources (e.g. meshes, textures; not plugins) from %1%.'
+
+    - &requiresX
+      type: warn
+      content: 'Requires: %1%'
+
+    - &runAnimFramework
+      type: say
+      content: 'It appears you have **%1%** installed. Remember to run **%2%** every time you have installed or uninstalled %3%, or a %3%-based mod.'
 
     - &runxLODGen
       type: say
-      content:
-        - lang: en
-          text: 'If you add, remove, or update plugins that alter WRLD/CELL records, remember to update this module with **xLODGen**.'
-        - lang: bg
-          text: 'Ако добавите, премахнете или обновите приставки, които променят записите WRLD и CELL, трябва да обновите този модул с **"xLODGen"**.'
-        - lang: de
-          text: 'Wenn Sie Plugins hinzufügen, entfernen oder aktualisieren die WRLD/CELL Einträge verändern, denken Sie daran dieses Modul mit **xLODGen** zu aktualisieren.'
-        - lang: es
-          text: 'Si se agrega, elimina, o se actualizan plugins que modifican registros WRLD/CELL, recuerde actualizar este módulo con **xLODGen**.'
-        - lang: fr
-          text: 'Si vous ajoutez, enlevez, ou mettez à jour des plugins qui modifient WRLD/CELL records, n''oubliez pas de mettre à jour ce module avec **xLODGen**.'
-        - lang: it
-          text: 'Se aggiungi, rimuovi o aggiorni i plugin che modificano i record WRLD/CELL, ricorda di aggiornare questo modulo con **xLODGen**.'
-        - lang: ja
-          text: 'WRLD/CELLレコードを変更するプラグインを追加、削除、または更新する場合は、このモジュールを **xLODGen** で更新することを忘れないでください。'
-        - lang: ko
-          text: 'WRLD/CELL 레코드를 변경하는 플러그인을 추가, 제거 또는 업데이트하는 경우 **xLODGen**으로 이 모듈을 업데이트해야 합니다.'
-        - lang: pt_PT
-          text: 'Se você adicionar, remover, ou atualizar plugins que alterem registos WRLD/CELL, lembre-se de atualizar este módulo com **xLODGen**.'
-        - lang: ru
-          text: 'Если вы добавляете, удаляете или обновляете плагины, которые изменяют записи WRLD / CELL, не забудьте обновить этот модуль с помощью **xLODGen**.'
-        - lang: uk_UA
-          text: 'Якщо ви додаєте, видаляєте чи оновлюєте плагіни, які змінюють записи WRLD/CELL, не забудьте оновити цей модуль за допомогою **xLODGen**.'
-        - lang: zh_CN
-          text: '如果您添加、删除或更新修改了WRLD/CELL记录的插件时，记得使用**xLODGen**更新此模块。'
+      content: 'If you add, remove, or update plugins that alter WRLD/CELL records, remember to update this module with **xLODGen**.'
+
+    - &sortMasters
+      type: say
+      content: 'Plugin''s Masters require sorting. %1%'
+      subs: [ '[xEdit - Sort Masters](https://tes5edit.github.io/docs/7-mod-cleaning-and-error-checking.html#SortingMasterFileLoadOrders)' ]
+
+    - &useBashTweakInstead
+      type: say
+      content: 'A Bashed Patch tweak can be used instead of this plugin. %1%'
+      subs: [ '' ]
+      condition: 'file("Bashed Patch.*\.esp")'
+
+    - &useINITweakInstead
+      type: say
+      content: 'An INI tweak can be used instead of this plugin. %1%'
+      subs: [ '' ]
+
+    - &useInstead
+      type: warn
+      content: 'Use %1% instead.'
+
+    - &useOnlyOneX
+      type: error
+      content: 'Use only one %1%.'
+
+    - &useVersion
+      type: error
+      content: 'Use %1% version.'
+
+    - &useVersionNon
+      type: error
+      content: 'Use non-%1% version.'
+
+    - &versionOldX
+      type: say
+      content: 'It appears you do not have the latest version of %1%. Some mods may require functionality added in the latest version of %1% to work.'
+
+    - &versionUpToDateX
+      type: say
+      content: 'Your %1% is up-to-date.'
+
+    - &versionXIncY
+      type: error
+      content: 'Your installed version of %1% is not compatible with your version of %2%.'
+
+    - &versionXofYorGreaterRequired
+      type: error
+      content: 'Requires version **%1%** or greater of **%2%**.'
+
+    - &wildEdits
+      type: warn
+      content: 'This plugin contains [wild edits](https://tes5edit.github.io/docs/7-mod-cleaning-and-error-checking.html#WildEdits) and may require additional manual cleaning to not interfere with other mods. %1%'
+      subs: [ '' ]
 
   # Cleaning Data Anchors
     - &quickClean
       util: '[EnderalEdit](https://www.nexusmods.com/enderal/mods/23/)'
-      info:
-        - lang: en
-          text: 'A guide to cleaning plugins using xEdit can be found [here](https://tes5edit.github.io/docs/7-mod-cleaning-and-error-checking.html#ThreeEasyStepstocleanMods).'
-        - lang: bg
-          text: 'Информация за почистване на приставките в "xEdit" може да намерите [тук](https://tes5edit.github.io/docs/7-mod-cleaning-and-error-checking.html#ThreeEasyStepstocleanMods).'
-        - lang: de
-          text: 'Eine Anleitung zum Säubern von Plugins mit xEdit finden Sie [hier](https://tes5edit.github.io/docs/7-mod-cleaning-and-error-checking.html#ThreeEasyStepstocleanMods).'
-        - lang: es
-          text: 'Una guía para limpiar plugins usando xEdit se encuentra disponible [aquí](https://tes5edit.github.io/docs/7-mod-cleaning-and-error-checking.html#ThreeEasyStepstocleanMods).'
-        - lang: fi
-          text: 'Ohjeet liitännäisten puhdistamiseen xEditillä löytyvät [tästä linkistä](https://tes5edit.github.io/docs/7-mod-cleaning-and-error-checking.html#ThreeEasyStepstocleanMods).'
-        - lang: fr
-          text: 'Un guide pour nettoyer les plugins grâce à xEdit se trouve [ici](https://tes5edit.github.io/docs/7-mod-cleaning-and-error-checking.html#ThreeEasyStepstocleanMods).'
-        - lang: it
-          text: 'Puoi trovare una guida per la pulizia dei plugin tramite xEdit [qui](https://tes5edit.github.io/docs/7-mod-cleaning-and-error-checking.html#ThreeEasyStepstocleanMods).'
-        - lang: ja
-          text: 'xEditを使ったプラグインのクリーニングのガイドは[こちら](https://tes5edit.github.io/docs/7-mod-cleaning-and-error-checking.html#ThreeEasyStepstocleanMods)にあります。'
-        - lang: ko
-          text: 'xEdit을 사용한 플러그인 정리에 대한 가이드는 [여기](https://tes5edit.github.io/docs/7-mod-cleaning-and-error-checking.html#ThreeEasyStepstocleanMods)에서 찾을 수 있습니다.'
-        - lang: pt_BR
-          text: 'Um guia para limpar plugins utilizando o xEdit pode ser encontrado [aqui](https://tes5edit.github.io/docs/7-mod-cleaning-and-error-checking.html#ThreeEasyStepstocleanMods).'
-        - lang: pt_PT
-          text: 'Um guia para limpar plugins utilizando xEdit pode ser encontrado [aqui](https://tes5edit.github.io/docs/7-mod-cleaning-and-error-checking.html#ThreeEasyStepstocleanMods).'
-        - lang: ru
-          text: 'Руководство по очистке модов с помощью xEdit можно найти [здесь](https://tes5edit.github.io/docs/7-mod-cleaning-and-error-checking.html#ThreeEasyStepstocleanMods).'
-        - lang: sv
-          text: 'En guide till att rensa plugins med xEdit finns [här](https://tes5edit.github.io/docs/7-mod-cleaning-and-error-checking.html#ThreeEasyStepstocleanMods).'
-        - lang: uk_UA
-          text: 'Посібник з очищення модів за допомогою xEdit можна знайти [тут](https://tes5edit.github.io/docs/7-mod-cleaning-and-error-checking.html#ThreeEasyStepstocleanMods).'
-        - lang: zh_CN
-          text: 'xEdit的清洁插件指南可以在[这里](https://tes5edit.github.io/docs/7-mod-cleaning-and-error-checking.html#ThreeEasyStepstocleanMods)找到。'
+      info: 'A guide to cleaning plugins using xEdit can be found [here](https://tes5edit.github.io/docs/7-mod-cleaning-and-error-checking.html#ThreeEasyStepstocleanMods).'
 
     - &reqManualFix
       util: '[EnderalEdit](https://www.nexusmods.com/enderal/mods/23/)'
-      info:
-        - lang: en
-          text: 'It is strongly recommended not to use mods that contain **deleted navmeshes** as they''re known to cause crashes. **Deleted navmeshes** must be corrected manually (a complex process that should be done by the mod author). More information on **deleted navmeshes** is provided [here](https://www.creationkit.com/index.php?title=Fixing_Navmesh_Deletion_Tutorial).'
-        - lang: bg
-          text: 'Препоръчва се да избягвате модове, които съдържат **изтрити навигационни обекти**, защото те могат да причинят проблеми. **Изтритите навигационни обекти** трябва да бъдат коригирани ръчно (това е сложен процес и не се препоръчва за начинаещи). Повече информация за **тях** може да намерите [тук](https://www.creationkit.com/index.php?title=Fixing_Navmesh_Deletion_Tutorial).'
-        - lang: de
-          text: 'Es wird streng empfohlen, keine Mods zu verwenden die **Gelöschte Navmeshes** beinhalten, da diese dafür bekannt sind Abstürze auszulösen. **Gelöschte Navmeshes** müssen manuell korrigiert werden (ein komplexer Prozess der vom Mod-Autor erledigt werden sollte). Mehr Informationen über **Gelöschte Navmeshes** werden [hier](https://www.creationkit.com/index.php?title=Fixing_Navmesh_Deletion_Tutorial) geboten.'
-        - lang: es
-          text: 'Es altamente recomendable que no se usen mods que contienen **navmeshes eliminadas** pues es común que causen cierres súbitos (crashes). Las **navmeshes eliminadas** deben ser corregidas manualmente (un proceso bien complejo que debe ser ejecutado por el autor del mod). Más información sobre las **navmeshes eliminadas** puede ser consltada [aquí](https://www.creationkit.com/index.php?title=Fixing_Navmesh_Deletion_Tutorial).'
-        - lang: fr
-          text: 'Il est fortement recommandé de ne pas utilisé de mod contenant **deleted navmeshes**, connu pour provoquer des crash. **Deleted navmeshes** doit être corrigé manuellement (un processus complexe, devant être effectué par l''auteur du mod). Plus d''information sur **Deleted navmeshes** peuvent être trouvées [ici](https://www.creationkit.com/index.php?title=Fixing_Navmesh_Deletion_Tutorial).'
-        - lang: it
-          text: 'Si raccomanda vivamente di non utilizzare mod che contengono **navmesh cancellate** che sono note come causa di Crash. **Navmesh cancellate** devono essere corrette manualmente (un processo complesso che dovrebbe essere fatto dall''autore della mod). Puoi trovare maggiori informazioni su **deleted navmeshes** [qui](https://www.creationkit.com/index.php?title=Fixing_Navmesh_Deletion_Tutorial).'
-        - lang: ja
-          text: '**navmeshの削除**を含むmodは使用しないことを強く推奨します。クラッシュの原因になります。**navmeshの削除**は手動で修正する必要があります(mod作成者が行う必要がある複雑なプロセスです)。**navmeshの削除**の詳細については[ここ](https://www.creationkit.com/index.php?title=Fixing_Navmesh_Deletion_Tutorial)を参照してください。'
-        - lang: ko
-          text: '**삭제된 Navmesh**가 포함된 모드는 크래시를 유발하는 것으로 알려져 있으므로 사용하지 않는 것이 좋습니다. **삭제된 Navmesh**는 수동으로 수정해야합니다(모드 작성자가 수행해야하는 복잡한 프로세스). **삭제된 Navmesh**에 대한 자세한 정보는 [여기](https://www.creationkit.com/index.php?title=Fixing_Navmesh_Deletion_Tutorial)에서 제공됩니다.'
-        - lang: pl
-          text: 'Jest silnie zalecane aby nie używać modów zawierających **Usunięte navmeshe** jako że są znane jako powód awarii. **Usunięte navmeshe** muszą zostać poprawione ręcznie(skomplikowany proces który powinien być wykonany przez autora modu). Więcej informacji o **Usuniętych navmeshach** można znaleźć [tutaj](https://www.creationkit.com/index.php?title=Fixing_Navmesh_Deletion_Tutorial).'
-        - lang: pt_BR
-          text: 'É altamente recomendado que você não utilize mods que contenham **Navmeshes deletados**, pois eles são conhecidos por causar problemas. **Navmeshes deletados devem ser corrigos manualmente (Um processo complexo que deve ser feito pelo autor do mod). Mais informações em **Navmeshes deletadas** está disponível [aqui](https://www.creationkit.com/index.php?title=Fixing_Navmesh_Deletion_Tutorial).'
-        - lang: pt_PT
-          text: 'É fortemente recomandado não utilizar mods que contenham **Navmeshes apagados** sendo que são conhecidos por causar falhas. **Navmeshes apagados** devem ser corrigidos manualmente(Um processo complexo que deve ser feito pelo autor do mod). Mais informação sobre **Navmeshes apagados** está disponível em inglês [aqui] (https://www.creationkit.com/index.php?title=Fixing_Navmesh_Deletion_Tutorial).'
-        - lang: ru
-          text: 'Настоятельно не рекомендуется использовать моды с **удаленными навмешами** т.к. известно, что они вызывают вылеты. **Удаленные навмеши** должны быть исправлены вручную (сложный процесс, который должен быть выполнен автором мода). Больше информации о **удаленных навмешах** можно найти [здесь](https://www.creationkit.com/index.php?title=Fixing_Navmesh_Deletion_Tutorial).'
-        - lang: sv
-          text: 'Det är starkt rekommenderat att inte använda mods som innehåller **Borttagna navmeshes** eftersom de kan orsaka krascher. **Borttagna navmeshes** måste korrigeras manuellt (en komplex process som borde göras av modskaparen). Mer information om **Borttagna navmeshes** hittar du [här](https://www.creationkit.com/index.php?title=Fixing_Navmesh_Deletion_Tutorial).'
-        - lang: uk_UA
-          text: 'Наполегливо не рекомендується використовувати моди з **видаленими навмешами** бо відомо, що вони викликають збої. **Видалені навмеші** повинні бути виправлені вручну (складний процес, який повинен бути виконаний автором моду). Більше інформації про **видалені навмеші** можна знайти [тут](https://www.creationkit.com/index.php?title=Fixing_Navmesh_Deletion_Tutorial).'
-        - lang: zh_CN
-          text: '强烈建议不要使用包含已删除navmeshes的mod，因为它们会导致崩溃。**已删除navmeshes**必须手动修正(一个复杂的过程，应该由mod作者完成)。更多关于**已删除navmeshes**的信息已提供[这里](https://www.creationkit.com/index.php?title=Fixing_Navmesh_Deletion_Tutorial)。'
+      info: 'It is strongly recommended not to use mods that contain **deleted navmeshes** as they''re known to cause crashes. **Deleted navmeshes** must be corrected manually (a complex process that should be done by the mod author). More information on **deleted navmeshes** is provided [here](https://www.creationkit.com/index.php?title=Fixing_Navmesh_Deletion_Tutorial).'
 
   # Global Anchors
     - &latestLOOTThread
       type: say
-      content:
-        - lang: en
-          text: '[Latest LOOT thread](%1%).'
-        - lang: bg
-          text: '[Форумът на "LOOT"](%1%).'
-        - lang: da
-          text: '[Seneste LOOT-tråd](%1%).'
-        - lang: de
-          text: '[Aktueller LOOT-Thread](%1%).'
-        - lang: es
-          text: '[Forum de LOOT](%1%).'
-        - lang: fr
-          text: '[Récent post sur le forum LOOT](%1%).'
-        - lang: it
-          text: '[Ultimo thread di LOOT](%1%).'
-        - lang: ja
-          text: '[LOOTの最新スレッドを開く](%1%)（英語）。'
-        - lang: ko
-          text: '[최신 LOOT 스레드](%1%).'
-        - lang: pl
-          text: '[Ostatni wątek LOOT](%1%).'
-        - lang: pt_BR
-          text: '[Thread mais recento do LOOT](%1%).'
-        - lang: pt_PT
-          text: '[Postagem mais recente do LOOT](%1%).'
-        - lang: ru
-          text: '[Обсуждение LOOT "(Eng)"](%1%).'
-        - lang: sv
-          text: '[Senaste LOOT-tråd](%1%).'
-        - lang: uk_UA
-          text: '[Обговорення LOOT "(Eng)"](%1%).'
-        - lang: zh_CN
-          text: '[最新的LOOT版本](%1%)。'
+      content: '[Latest LOOT thread](%1%).'
       subs: [ 'https://loot.github.io/latest-thread/' ]
 
 common: []
