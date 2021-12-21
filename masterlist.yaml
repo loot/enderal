@@ -284,8 +284,7 @@ bash_tags:
 
 globals:
 # Latest LOOT Thread
-  - &lootThread
-    <<: *latestLOOTThread
+  - <<: *latestLOOTThread
     subs: [ 'https://loot.github.io/latest-thread/' ]
 
 groups:
