@@ -401,6 +401,8 @@ plugins:
       - crc: 0x80C83D55
         util: 'EnderalSEEdit v4.0.3g'
 
+  - name: 'Enderal Fast Travel EV.esp'
+
 ###### Items ######
   - name: 'Enderal SE - Crossbows.esp'
     url: [ 'https://www.nexusmods.com/enderalspecialedition/mods/4/' ]
