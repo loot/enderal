@@ -410,6 +410,9 @@ plugins:
       - <<: *alreadyInOrFixedByX
         subs: [ '**Enderal - Dynamic Fast Travel.esp**' ]
         condition: 'active("Enderal - Dynamic Fast Travel.esp")'
+      - <<: *obsolete
+        subs: [ '[Dynamic Fast Travel](https://www.nexusmods.com/enderal/mods/120/)' ]
+        condition: 'not active("Enderal - Dynamic Fast Travel.esp")'
 
 ###### Items ######
   - name: 'Enderal SE - Crossbows.esp'
