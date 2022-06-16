@@ -402,6 +402,9 @@ plugins:
         util: 'EnderalSEEdit v4.0.3g'
 
   - name: 'Enderal Fast Travel EV.esp'
+    url:
+      - link: 'https://www.nexusmods.com/enderal/mods/5/'
+        name: 'Enderal Fast Travel EV'
 
 ###### Items ######
   - name: 'Enderal SE - Crossbows.esp'
