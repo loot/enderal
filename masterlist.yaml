@@ -400,7 +400,7 @@ plugins:
 
 ###### Modding Tools - Generated Files ######
   - name: 'Bashed Patch.*\.esp'
-    url: [ 'https://www.nexusmods.com/enderal/mods/97/' ]
+    url: [ 'https://www.nexusmods.com/site/mods/591/' ]
     group: *dynamicPatchGroup
 
   - name: 'DynDOLOD.esp'
